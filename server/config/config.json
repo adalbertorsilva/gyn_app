@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "junior",
+    "database": "gyn_app-dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "junior",
+    "database": "gyn_app-test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "junior",
+    "database": "gyn_app-prod",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
