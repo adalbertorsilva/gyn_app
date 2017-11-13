@@ -11,5 +11,6 @@ app.use(logger('dev'))
 app.use(expressValidator())
 
 require('./server/routes/exercise-routes')(app)
+require('./server/routes/serie-routes')(app)
 
 module.exports = app
